@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E6B7A10-EF2D-427A-B193-B0AD132ABFFC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CodeJam</RootNamespace>
+    <AssemblyName>CodeJam</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="2008\Round1A\MinimumScalarProduct\src\Case.cs" />
+    <Compile Include="2008\Round1A\MinimumScalarProduct\src\InputReader.cs" />
+    <Compile Include="2008\Round1A\MinimumScalarProduct\src\MinimumScalarProduct.cs" />
+    <Compile Include="2008\Round1A\MinimumScalarProduct\src\Solver.cs" />
+    <Compile Include="2009\QualificationRound\AlienLanguage\src\Case.cs" />
+    <Compile Include="2009\QualificationRound\AlienLanguage\src\InputReader.cs" />
+    <Compile Include="2009\QualificationRound\AlienLanguage\src\AlienLanguage.cs" />
+    <Compile Include="2009\QualificationRound\AlienLanguage\src\Solver.cs" />
+    <Compile Include="2009\Round1C\AllYourBase\src\Case.cs" />
+    <Compile Include="2009\Round1C\AllYourBase\src\InputReader.cs" />
+    <Compile Include="2009\Round1C\AllYourBase\src\Solver.cs" />
+    <Compile Include="2009\Round1C\AllYourBase\src\AllYourBase.cs" />
+    <Compile Include="2010-Africa\QualificationRound\ReverseWords\src\ReverseWords.cs" />
+    <Compile Include="2010-Africa\QualificationRound\ReverseWords\src\Solver.cs" />
+    <Compile Include="2010-Africa\QualificationRound\StoreCredit\src\Case.cs" />
+    <Compile Include="2010-Africa\QualificationRound\StoreCredit\src\InputReader.cs" />
+    <Compile Include="2010-Africa\QualificationRound\StoreCredit\src\Solver.cs" />
+    <Compile Include="2010-Africa\QualificationRound\StoreCredit\src\StoreCredit.cs" />
+    <Compile Include="2010\Round1A\Rotate\src\Case.cs" />
+    <Compile Include="2010\Round1A\Rotate\src\InputReader.cs" />
+    <Compile Include="2010\Round1A\Rotate\src\Rotate.cs" />
+    <Compile Include="2010\Round1A\Rotate\src\Solver.cs" />
+    <Compile Include="2010\Round1B\FileFix-it\src\Case.cs" />
+    <Compile Include="2010\Round1B\FileFix-it\src\FileFix-it.cs" />
+    <Compile Include="2010\Round1B\FileFix-it\src\InputReader.cs" />
+    <Compile Include="2010\Round1B\FileFix-it\src\Solver.cs" />
+    <Compile Include="2010\Round1C\RopeIntranet\src\Case.cs" />
+    <Compile Include="2010\Round1C\RopeIntranet\src\InputReader.cs" />
+    <Compile Include="2010\Round1C\RopeIntranet\src\RopeIntranet.cs" />
+    <Compile Include="2010\Round1C\RopeIntranet\src\Solver.cs" />
+    <Compile Include="2015\QualificationRound\Dijkstra\src\Case.cs" />
+    <Compile Include="2015\QualificationRound\Dijkstra\src\Dijkstra.cs" />
+    <Compile Include="2015\QualificationRound\Dijkstra\src\InputReader.cs" />
+    <Compile Include="2015\QualificationRound\Dijkstra\src\Solver.cs" />
+    <Compile Include="2015\QualificationRound\InfiniteHouseOfPancakes\src\Case.cs" />
+    <Compile Include="2015\QualificationRound\InfiniteHouseOfPancakes\src\InfiniteHouseOfPancakes.cs" />
+    <Compile Include="2015\QualificationRound\InfiniteHouseOfPancakes\src\InputReader.cs" />
+    <Compile Include="2015\QualificationRound\InfiniteHouseOfPancakes\src\Sm.cs" />
+    <Compile Include="2015\QualificationRound\InfiniteHouseOfPancakes\src\Solver.cs" />
+    <Compile Include="2015\QualificationRound\OminousOmino\src\Case.cs" />
+    <Compile Include="2015\QualificationRound\OminousOmino\src\InputReader.cs" />
+    <Compile Include="2015\QualificationRound\OminousOmino\src\OminousOmino.cs" />
+    <Compile Include="2015\QualificationRound\OminousOmino\src\Solver.cs" />
+    <Compile Include="2015\QualificationRound\StandingOvation\src\Case.cs" />
+    <Compile Include="2015\QualificationRound\StandingOvation\src\InputReader.cs" />
+    <Compile Include="2015\QualificationRound\StandingOvation\src\Solver.cs" />
+    <Compile Include="2015\QualificationRound\StandingOvation\src\StandingOvation.cs" />
+    <Compile Include="InputReader.cs" />
+    <Compile Include="OutputWriter.cs" />
+    <Compile Include="ProblemCaller.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2008\Round1A\MinimumScalarProduct\A-large-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2008\Round1A\MinimumScalarProduct\A-small-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2009\QualificationRound\AlienLanguage\A-large-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2009\QualificationRound\AlienLanguage\A-small-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2009\Round1C\AllYourBase\A-large-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2009\Round1C\AllYourBase\A-small-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2010-Africa\QualificationRound\ReverseWords\B-large-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2010-Africa\QualificationRound\ReverseWords\B-small-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2010-Africa\QualificationRound\StoreCredit\A-large-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2010-Africa\QualificationRound\StoreCredit\A-small-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2010\Round1A\Rotate\A-large-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2010\Round1A\Rotate\A-small-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2010\Round1B\FileFix-it\A-large-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2010\Round1B\FileFix-it\A-small-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2010\Round1C\RopeIntranet\A-large-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2010\Round1C\RopeIntranet\A-small-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2015\QualificationRound\Dijkstra\C-large-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2015\QualificationRound\Dijkstra\C-small-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2015\QualificationRound\InfiniteHouseOfPancakes\B-large-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2015\QualificationRound\InfiniteHouseOfPancakes\B-small-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2015\QualificationRound\OminousOmino\D-large-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2015\QualificationRound\OminousOmino\D-small-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2015\QualificationRound\StandingOvation\A-large-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="2015\QualificationRound\StandingOvation\A-small-practice.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

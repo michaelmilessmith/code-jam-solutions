@@ -1,0 +1,6 @@
+C:\Playground\Jam2015Q\Jam2015Q\bin\Debug\Jam2015Q.exe.config
+C:\Playground\Jam2015Q\Jam2015Q\bin\Debug\Jam2015Q.exe
+C:\Playground\Jam2015Q\Jam2015Q\bin\Debug\Jam2015Q.pdb
+C:\Playground\Jam2015Q\Jam2015Q\obj\Debug\Jam2015Q.csprojResolveAssemblyReference.cache
+C:\Playground\Jam2015Q\Jam2015Q\obj\Debug\Jam2015Q.exe
+C:\Playground\Jam2015Q\Jam2015Q\obj\Debug\Jam2015Q.pdb
