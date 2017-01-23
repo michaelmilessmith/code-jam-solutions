@@ -8,3 +8,7 @@ const read = (fileName) => {
 
 var dataSmall = read("B-small-practice.in");
 var dataLarge = read("B-Large-practice.in");
+
+exports.timeToBuyFarm = (currentCookiesPerSecond, farmCost) => {
+  return farmCost / currentCookiesPerSecond;
+};
