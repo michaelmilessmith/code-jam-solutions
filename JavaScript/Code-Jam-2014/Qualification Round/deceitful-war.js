@@ -9,7 +9,7 @@ exports.naomiWarResult = (naomiBlocks, kenBlocks) => {
   for(let n = 0; n < naomiBlocks.length; n++){
     const index = kenBlocksSorted.findIndex(b => b > naomiBlocksSorted[n]);
     if(index > -1){
-      kenBlocksSorted[index] = 0;
+      kenBlocksSorted.splice(index, 1);
     }
     else{
       naomiPoints += 1;
@@ -18,6 +18,7 @@ exports.naomiWarResult = (naomiBlocks, kenBlocks) => {
   return naomiPoints;
 }
 
+// naomi's optimum deceitful war gives the same points as ken in his optimum war
 exports.naomiDeceitfulWarResult = (naomiBlocks, kenBlocks) => {
   return kenBlocks.length - this.naomiWarResult(kenBlocks, naomiBlocks);
 }
