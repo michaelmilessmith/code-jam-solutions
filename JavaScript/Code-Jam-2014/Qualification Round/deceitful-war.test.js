@@ -20,6 +20,11 @@ describe("Deceitful War", () =>
       [0.186, 0.389, 0.907, 0.832, 0.959, 0.557, 0.300, 0.992, 0.899],
       [0.916, 0.728, 0.271, 0.520, 0.700, 0.521, 0.215, 0.341, 0.458]);
     expect(result3).to.equal(4);
+
+    const result4 = solver.naomiWarResult(
+      [0.27, 0.55, 0.91, 0.33, 0.52, 0.30],
+      [0.85, 0.45, 0.06, 0.24, 0.12, 0.88]);
+    expect(result4).to.equal(3);
   });
   it("returns the points Naomi scores if she plays deceitful war optimally", () =>
   {
@@ -36,5 +41,10 @@ describe("Deceitful War", () =>
       [0.186, 0.389, 0.907, 0.832, 0.959, 0.557, 0.300, 0.992, 0.899],
       [0.916, 0.728, 0.271, 0.520, 0.700, 0.521, 0.215, 0.341, 0.458]);
     expect(result3).to.equal(8);
+
+    const result4 = solver.naomiDeceitfulWarResult(
+      [0.27, 0.55, 0.91, 0.33, 0.52, 0.30],
+      [0.85, 0.45, 0.06, 0.24, 0.12, 0.88]);
+    expect(result4).to.equal(5);
   });
 });
